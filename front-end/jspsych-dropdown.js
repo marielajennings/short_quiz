@@ -136,7 +136,7 @@ jsPsych.plugins['dropdown'] = (function () {
 			setTimeout(initChoicesForQuestion.bind(null, i));
 		}
 		// add submit button
-		trial_form.innerHTML += '<input type="submit" id="' + plugin_id_name + '-next" class="' + plugin_id_name + ' jspsych-btn" value="Next"></input>';
+		trial_form.innerHTML += '<br><br><input type="submit" id="' + plugin_id_name + '-next" class="' + plugin_id_name + ' jspsych-btn" value="Next"></input>';
 
 		trial_form.addEventListener('submit', function (event) {
 			event.preventDefault();
